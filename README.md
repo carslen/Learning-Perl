@@ -17,7 +17,11 @@ Durch gearbeitete Kapitel:
   `string` enthält zu durchsuchende Zeichenkette (kann Zeichenkette, oder auch eine Variable sein)<br>
   `substr` ist die zu suchende Zeichenkette<br>
   `offset` (optional) bestimmt Startpunkt der Suche in `string` nach `substr`
-* adf
+* `chomp $string`<br>
+  Entfernt Zeilenumbrüche am Ende einer Zeichenkette.
+* `chop`<br>
+  Entfernt das letzte Zeichen einer Zeichenkette.
+* 
 ## Arrays
 ## Spezielle Array-Funktionen
 ## Hashs (assoziative Arrays)
