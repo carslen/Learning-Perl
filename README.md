@@ -32,7 +32,13 @@ Mögliche Definitionsarten von Arrays:
     $day[1] = "Montag";
     $day[3] = "Dienstag";
 
-adsflj
+Einfacher definiert man Arrays über Listen:
+
+    @day = ("Sonntag", "Montag", "Dienstag");
+
+Diese Liste erzeugt das gleiche Array, wie die erste Definition, die Zuweisung erfolgt von links nach rechts (Sonntag ist damit `$day[0]`. `()` erzeugt eine leere Liste.
+
+
 ## Spezielle Array-Funktionen
 ## Hashs (assoziative Arrays)
 ## Spezielle Funktionen für Hash
