@@ -21,8 +21,18 @@ Durch gearbeitete Kapitel:
   Entfernt Zeilenumbrüche am Ende einer Zeichenkette.
 * `chop`<br>
   Entfernt das letzte Zeichen einer Zeichenkette.
-* 
+* `reverse`<br>
+  Dreht eine Zeichenkette um.
 ## Arrays
+`@array` bezeichnet ein komplettes Array. Will man auf einen Index (beginnend bei 0) zugreifen geschieht dies über `$array[1]` (beachte $ statt @).
+
+Mögliche Definitionsarten von Arrays:
+
+    $day[0] = "Sonntag";
+    $day[1] = "Montag";
+    $day[3] = "Dienstag";
+
+adsflj
 ## Spezielle Array-Funktionen
 ## Hashs (assoziative Arrays)
 ## Spezielle Funktionen für Hash
