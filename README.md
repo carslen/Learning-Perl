@@ -32,11 +32,11 @@ Mögliche Definitionsarten von Arrays:
     $day[1] = "Montag";
     $day[3] = "Dienstag";
 
-Einfacher definiert man Arrays über Listen:
+Einfacher definiert man Arrays über Listen (beachte @ statt $):
 
     @day = ("Sonntag", "Montag", "Dienstag");
 
-Diese Liste erzeugt das gleiche Array, wie die erste Definition, die Zuweisung erfolgt von links nach rechts (Sonntag ist damit `$day[0]`. `()` erzeugt eine leere Liste.
+Diese Liste erzeugt das gleiche Array, wie die erste Definition, die Zuweisung erfolgt von links nach rechts (Sonntag ist damit in `$day[0]` gespeichert. `()` erzeugt eine leere Liste.
 
 
 ## Spezielle Array-Funktionen
