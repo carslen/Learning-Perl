@@ -19,4 +19,6 @@ print %months, "\n";
 print "Schluessel von %example:\t", keys %example, "\n";
 print "Alle Werte von %example:\t", values %example, "\n";
 @sortedKeys=sort(keys %example);
+@sortedValues=sort(values %example);
 print "Alle Schluessel sortiert:\t", @sortedKeys, "\n";
+print "Alle Werte sortiert:\t", @sortedValues, "\n";
